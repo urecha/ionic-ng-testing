@@ -1,0 +1,49 @@
+.roche-toast {
+    --background: #0066CC;
+    border-radius: 5px;
+    color: white;
+}
+
+.img-container{
+    text-align: center;
+
+    img {
+        max-height: 40vh;
+    }
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+
+    .question {
+        padding: 0px 10%;
+    }
+
+    .countdown {
+        position: absolute;
+        right: 5%;
+        color: #06c;;
+    }
+}
+
+ion-item{
+    --background: white;
+    --color: #0066CC;
+    --border-radius: 5px;
+    --border-color: #0066CC;
+    --border-width: 1px;
+    --border-style: solid;
+}
+
+.selected {
+    --background: #0066CC;
+    --color: white;
+}
